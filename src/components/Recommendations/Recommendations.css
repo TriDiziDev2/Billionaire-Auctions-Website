@@ -1,0 +1,17 @@
+.recommendations-container {
+  width: 90%;
+  margin: 0 auto;
+  border: 1.25px solid rgba(173, 70, 255, 0.3);
+  background: rgba(255, 255, 255, 0.5);
+  padding: 16px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.star-icon {
+  width: 28px;
+  height: 28px;
+  color: rgba(152, 16, 250, 1);
+}
