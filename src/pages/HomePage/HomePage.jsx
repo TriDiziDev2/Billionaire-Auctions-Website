@@ -1,6 +1,7 @@
 import BillionaireAuction from '../../components/BillionaireAuctions/BillionaireAuction';
 import BrowseByCategory from '../../components/BrowseByCategory/BrowseByCategory';
 import BuyAndSell from '../../components/BuyAndSell/BuyAndSell';
+import ExclusiveUpdates from '../../components/ExclusiveUpdates/ExclusiveUpdates';
 import FeaturedListings from '../../components/FeaturedListings/FeaturedListings';
 import HeroBanner from '../../components/HeroBanner/HeroBanner';
 import RealEstate from '../../components/RealEstate/RealEstate';
@@ -17,6 +18,7 @@ const HomePage = () => {
       <RealEstate />
       <BillionaireAuction />
       <BuyAndSell />
+      <ExclusiveUpdates />
     </div>
   );
 };

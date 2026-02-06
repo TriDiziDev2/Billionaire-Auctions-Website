@@ -54,7 +54,10 @@ const BuyAndSell = () => {
             Premium Insurance
           </div>
         </div>
-        <button className='buy-btn'>
+        <button
+          className='buy-btn'
+          style={{ backgroundColor: '#fff', color: 'rgba(212, 175, 55, 1)' }}
+        >
           Browse Buy Now items <FaArrowRight />
         </button>
       </div>
@@ -110,7 +113,10 @@ const BuyAndSell = () => {
             Dedicated Support
           </div>
         </div>
-        <button className='buy-btn'>
+        <button
+          className='buy-btn'
+          style={{ color: '#fff', backgroundColor: 'rgba(212, 175, 55, 1)' }}
+        >
           Start Selling Today <FaArrowRight />
         </button>
       </div>
