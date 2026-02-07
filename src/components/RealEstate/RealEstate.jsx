@@ -17,7 +17,7 @@ const realEstateData = [
     image: heritage,
     cost: '28,50,00,000',
     city: 'Gurgaon, Haryana',
-    location: 'Gurgoan',
+    location: 'Gurgaon',
   },
   {
     id: 2,
@@ -47,7 +47,7 @@ const realEstateData = [
 
 const RealEstate = () => {
   return (
-    <div className='featured-listings-container'>
+    <div className='real-estate-container'>
       <div className='featured-listings-header'>
         <div className='featured-listings-heading-container'>
           <div className='real-estate-icon-container'>
@@ -58,7 +58,7 @@ const RealEstate = () => {
             <p className='real-estate-text'>5 Products Available</p>
           </div>
         </div>
-        <div className='featured-listings-arrow-btn-container'>
+        <div className='real-estate-arrow-btn-container'>
           <button className='arrow-btn'>
             <FaAngleLeft />
           </button>
@@ -70,7 +70,7 @@ const RealEstate = () => {
           </button>
         </div>
       </div>
-      <div className='featured-listings-grid-container'>
+      <div className='real-estate-grid-container'>
         {realEstateData.map((item) => (
           <RealEstateCard key={item.id} {...item} />
         ))}

@@ -15,3 +15,16 @@
   height: 28px;
   color: rgba(152, 16, 250, 1);
 }
+
+@media screen and (max-width: 510px) {
+  .recommendations-container {
+    width: 98%;
+    margin: 0 auto;
+    border: none;
+  }
+
+  .star-icon {
+    width: 15.55px;
+    height: 15.55px;
+  }
+}

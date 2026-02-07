@@ -64,3 +64,31 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
 }
+
+@media screen and (max-width: 510px) {
+  .featured-listings-container {
+    width: 98%;
+    margin: 16px auto;
+    border: none;
+  }
+
+  .crown-icon {
+    width: 13.28px;
+    height: 13.28px;
+  }
+
+  .featured-listings-heading {
+    font-size: 13.29px;
+    line-height: 17.72px;
+  }
+
+  .featured-listings-arrow-btn-container {
+    display: none;
+  }
+
+  .featured-listings-grid-container {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+  }
+}

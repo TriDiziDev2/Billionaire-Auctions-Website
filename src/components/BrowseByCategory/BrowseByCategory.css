@@ -77,3 +77,37 @@
   color: rgba(54, 65, 83, 1);
   text-align: center;
 }
+
+@media screen and (max-width: 510px) {
+  .browse-category-container {
+    width: 100%;
+  }
+
+  .browse-category-heading {
+    font-size: 15px;
+    line-height: 32px;
+  }
+
+  .browse-category-text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .browse-category-btns-container {
+    width: 98%;
+    margin: 10px auto 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .browse-category-icon-container {
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+  }
+
+  .browse-category-title {
+    font-size: 7px;
+    line-height: 10.69px;
+  }
+}

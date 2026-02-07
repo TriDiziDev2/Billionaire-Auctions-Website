@@ -250,3 +250,147 @@
   color: rgba(212, 175, 55, 1);
   cursor: pointer;
 }
+
+@media screen and (max-width: 510px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero-banner-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .search-icon-container {
+    display: none;
+  }
+
+  .hero-banner-content-container {
+    padding: 0;
+  }
+
+  .hero-banner-heading {
+    font-size: 18.15px;
+    line-height: 22.69px;
+  }
+
+  .hero-banner-text {
+    width: 268px;
+    font-size: 6.81px;
+    line-height: 10.59px;
+  }
+
+  .hero-banner-grid-container {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-banner-grid-item-one-container {
+    width: 100%;
+    height: 35.72px;
+    border-radius: 6.05px;
+    padding-right: 6.05px;
+    padding-left: 6.05px;
+  }
+
+  .hero-banner-item-title {
+    font-size: 5.29px;
+    line-height: 7.56px;
+  }
+
+  .hero-banner-item-one-heading {
+    font-size: 11.34px;
+    line-height: 13.61px;
+  }
+
+  .hero-banner-item-two-heading {
+    font-size: 11.34px;
+    line-height: 13.61px;
+  }
+
+  .explore-btn {
+    width: 87px;
+    height: 18.14px;
+    padding: 4px 8px;
+    font-size: 6.05px;
+    line-height: 9.07px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    justify-content: center;
+  }
+
+  .item-btn {
+    width: 65.83px;
+    height: 18.14px;
+    padding: 4px 8px;
+    font-size: 6.05px;
+    line-height: 9.07px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    justify-content: center;
+  }
+
+  .hero-banner-grid-item-two-container {
+    width: 100%;
+    height: 34.21px;
+    border-radius: 6.05px;
+    padding: 6.52px;
+  }
+
+  .limited-offer-container {
+    width: 72.44px;
+    height: 16.63px;
+    padding: 3.49px 6.05px;
+    font-size: 5px;
+    line-height: 10.59px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    justify-content: center;
+  }
+
+  .special-offer-heading {
+    font-size: 9.07px;
+    line-height: 12.1px;
+  }
+
+  .special-offer-text {
+    font-size: 5.29px;
+    line-height: 7.56px;
+  }
+
+  .discount-container {
+    margin-left: 130px;
+  }
+
+  .discount-text {
+    font-size: 4.54px;
+    line-height: 6.05px;
+  }
+
+  .discount-number {
+    font-size: 11.34px;
+    line-height: 13.61px;
+  }
+
+  .claim-offer-btn {
+    width: 50.73px;
+    height: 18.14px;
+    padding: 4px 8px;
+    font-size: 5.85px;
+    line-height: 9.07px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+  }
+}

@@ -161,3 +161,67 @@
   line-height: 20px;
   color: rgba(212, 175, 55, 1);
 }
+
+@media screen and (max-width: 510px) {
+  .exclusive-updates-background {
+    width: 100%;
+  }
+
+  .exclusive-updates-tag {
+    display: none;
+  }
+
+  .exclusive-updates-heading,
+  .sub-heading {
+    font-size: 24px;
+  }
+
+  .exclusive-updates-text {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .exclusive-email-subscribe-btn-container {
+    width: 100%;
+    height: 98px;
+  }
+
+  .exclusive-email-subscribe-btn-container {
+    width: 100%;
+    height: auto;
+    padding: 10px 16px;
+  }
+
+  .exclusive-email-btn-container {
+    width: 100%;
+    height: auto;
+    padding: 4px 8px;
+  }
+
+  .email-icon {
+    width: 12px;
+    height: 12px;
+  }
+
+  .email-input::placeholder {
+    font-size: 12px;
+  }
+
+  .exclusive-btn {
+    width: 163px;
+    height: 40px;
+    font-size: 6.25px;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .exclusive-hightlight-container {
+    font-size: 12px;
+  }
+
+  .exclusive-updates-footer-text {
+    display: none;
+  }
+}

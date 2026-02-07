@@ -38,27 +38,29 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='footer-link-container'>
-          <h3 className='footer-link-heading'>Quick Links</h3>
-          <div className='footer-links'>
-            <span>About Us</span>
-            <span>How It Works</span>
-            <span>Our Services</span>
-            <span>Pricing Plans</span>
-            <span>Advertise</span>
-            <span>Contact Us</span>
+        <div className='footer-section-grid-container'>
+          <div className='footer-link-container'>
+            <h3 className='footer-link-heading'>Quick Links</h3>
+            <div className='footer-links'>
+              <span>About Us</span>
+              <span>How It Works</span>
+              <span>Our Services</span>
+              <span>Pricing Plans</span>
+              <span>Advertise</span>
+              <span>Contact Us</span>
+            </div>
           </div>
-        </div>
-        <div className='footer-link-container'>
-          <h3 className='footer-link-heading'>Categories</h3>
-          <div className='footer-links'>
-            <span>Real Estate</span>
-            <span>Cars</span>
-            <span>Furniture</span>
-            <span>Jewellery & Watches</span>
-            <span>Arts & Paintings</span>
-            <span>Collectables</span>
-            <span>Others</span>
+          <div className='footer-link-container'>
+            <h3 className='footer-link-heading'>Categories</h3>
+            <div className='footer-links'>
+              <span>Real Estate</span>
+              <span>Cars</span>
+              <span>Furniture</span>
+              <span>Jewellery & Watches</span>
+              <span>Arts & Paintings</span>
+              <span>Collectables</span>
+              <span>Others</span>
+            </div>
           </div>
         </div>
         <div className='footer-link-container'>

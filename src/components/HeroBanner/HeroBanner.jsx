@@ -55,6 +55,7 @@ const HeroBanner = () => {
                 Purchase 6 months listing and get 6 months absolutely FREE!
               </p>
             </div>
+
             <div className='discount-container'>
               <p className='discount-text'>Save up to</p>
               <h3 className='discount-number'>50%</h3>

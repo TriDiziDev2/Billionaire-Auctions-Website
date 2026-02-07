@@ -19,7 +19,7 @@ const FeaturedListingsCard = ({
         <img src={image} alt={title} className='featured-img' />
         <div className='featured-listings-card-header'>
           <div className='card-icon-container'>
-            <BsPatchCheck />
+            <BsPatchCheck className='check-icon' />
           </div>
           <div className='luxury-container'>Luxury</div>
         </div>

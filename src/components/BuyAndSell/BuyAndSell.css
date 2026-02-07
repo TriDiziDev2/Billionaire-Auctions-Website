@@ -83,3 +83,44 @@
   line-height: 24px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 510px) {
+  .buy-sell-container {
+    width: 98%;
+    margin: 0px auto;
+    gap: 4px;
+  }
+
+  .buy-icon-container {
+    width: 33px;
+    height: 33px;
+    font-size: 16.5px;
+  }
+
+  .buy-heading {
+    font-size: 15.51px;
+    line-height: 18.61px;
+  }
+
+  .buy-text {
+    font-size: 9.3px;
+    line-height: 14.47px;
+  }
+
+  .buy-list-item-container {
+    font-size: 8.27px;
+    line-height: 12.4px;
+  }
+
+  .dot {
+    width: 4.13px;
+    height: 4.13px;
+  }
+
+  .buy-btn {
+    width: 133.66px;
+    height: 28.93px;
+    font-size: 8.27px;
+    line-height: 12.4px;
+  }
+}

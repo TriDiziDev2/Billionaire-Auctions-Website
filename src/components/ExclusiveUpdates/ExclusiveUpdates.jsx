@@ -38,10 +38,10 @@ const ExclusiveUpdates = () => {
               <div className='yellow-circle'></div> Weekly Highlights
             </div>
             <div className='exclusive-hightlight-container'>
-              <div className='yellow-circle'></div> Weekly Highlights
+              <div className='yellow-circle'></div> Exclusive Previews
             </div>
             <div className='exclusive-hightlight-container'>
-              <div className='yellow-circle'></div> Weekly Highlights
+              <div className='yellow-circle'></div> VIP Events
             </div>
           </div>
         </div>

@@ -139,3 +139,74 @@
   line-height: 16px;
   color: rgba(255, 255, 255, 0.9);
 }
+
+@media screen and (max-width: 510px) {
+  .featured-listings-card-container {
+    width: 145.87px;
+    border-radius: 4.62px;
+  }
+
+  .featured-listings-card-image-container {
+    width: 145.41px;
+    height: 132.95px;
+  }
+
+  .featured-img {
+    border-top-right-radius: 4.62px;
+    border-top-left-radius: 4.62px;
+  }
+
+  .card-icon-container {
+    width: 18.46px;
+    height: 11.08px;
+    padding: 1.85px 5.54px;
+    border-radius: 3.69px;
+  }
+
+  .check-icon {
+    width: 7.39px;
+    height: 7.39px;
+  }
+
+  .luxury-container {
+    width: 28.12px;
+    height: 11.08px;
+    border-radius: 3.69px;
+    padding: 1.85px 5.54px;
+    font-size: 5.54px;
+    line-height: 7.39px;
+  }
+
+  .cost {
+    font-size: 9.23px;
+    line-height: 9.23px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .location {
+    font-size: 6.46px;
+    line-height: 9.23px;
+  }
+
+  .featured-listings-title {
+    font-size: 8.31px;
+    line-height: 12.93px;
+  }
+
+  .featured-listings-year {
+    font-size: 6.46px;
+    line-height: 9.23px;
+  }
+
+  .year {
+    font-size: 6.46px;
+    line-height: 9.23px;
+  }
+
+  .featured-listings-time,
+  .featured-listings-category {
+    font-size: 6.46px;
+    line-height: 9.23px;
+  }
+}

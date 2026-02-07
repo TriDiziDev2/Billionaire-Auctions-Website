@@ -57,3 +57,30 @@
   line-height: 16px;
   color: rgba(152, 16, 250, 1);
 }
+
+@media screen and (max-width: 510px) {
+  .recommendation-cost {
+    font-size: 9.41px;
+    line-height: 14.64px;
+  }
+
+  .recommendation-category {
+    font-size: 6.27px;
+    line-height: 8.37px;
+  }
+
+  .recommendation-luxury-container {
+    width: 30.85px;
+    height: 13.58px;
+    font-size: 6.27px;
+    line-height: 8.37px;
+  }
+
+  .card-icon2-container,
+  .card-icon1-container {
+    width: 13.58px;
+    height: 13.58px;
+    border-radius: 50%;
+    font-size: 7.31px;
+  }
+}
