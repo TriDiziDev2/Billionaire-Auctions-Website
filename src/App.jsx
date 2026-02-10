@@ -7,6 +7,7 @@ import Marketplace from './pages/Marketplace/Marketplace';
 import BuyNow from './pages/BuyNow/BuyNow';
 import Auctions from './pages/Auctions/Auctions';
 import ToLet from './pages/ToLet/ToLet';
+import AboutUs from './pages/AboutUs/AboutUs';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Route path='buy-now' element={<BuyNow />} />
           <Route path='auctions' element={<Auctions />} />
           <Route path='to-let' element={<ToLet />} />
+          <Route path='about-us' element={<AboutUs />} />
         </Route>
       </Routes>
       <Footer />

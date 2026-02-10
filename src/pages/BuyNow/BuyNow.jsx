@@ -31,6 +31,10 @@ import furniture1 from '../../assets/furniture1.jpg';
 import furniture2 from '../../assets/furniture2.jpg';
 import furniture3 from '../../assets/furniture3.jpg';
 import watch from '../../assets/watch.jpg';
+import arts from '../../assets/arts.jpg';
+import antiques from '../../assets/antiques.jpg';
+import collectables from '../../assets/collectables.jpg';
+import others from '../../assets/others.jpg';
 
 const btns = [
   {
@@ -236,6 +240,126 @@ const jewelleryData = [
   },
 ];
 
+const artsData = [
+  {
+    id: 1,
+    title: 'Original M.F. Husain Paiting',
+    image: arts,
+    cost: '6.75 Crore',
+    location: 'Pune, Maharashtra',
+    views: '1,567 views',
+    category: 'Arts & Paintings',
+  },
+  {
+    id: 2,
+    title: 'Raja Ravi Varma - Limited Print',
+    image: arts,
+    cost: '45 Lakh',
+    location: 'Kochi, Kerala',
+    views: '1,234 views',
+    category: 'Arts & Paintings',
+  },
+  {
+    id: 3,
+    title: 'Contemporary Abstract Art',
+    image: arts,
+    cost: '85 Lakh',
+    location: 'New Delhi, Delhi',
+    views: '1,432 views',
+    category: 'Arts & Paintings',
+  },
+];
+
+const antiquesData = [
+  {
+    id: 1,
+    title: 'Antique Persian Rug - 18th Century',
+    image: antiques,
+    cost: '3.5 Crore',
+    location: 'Kolkata, West Bengal',
+    views: '987 views',
+    category: 'Antiques',
+  },
+  {
+    id: 2,
+    title: 'Victorian Era Grandfather Clock',
+    image: antiques,
+    cost: '75 Lakh',
+    location: 'Jaipur, Rajasthan',
+    views: '654 views',
+    category: 'Antiques',
+  },
+  {
+    id: 3,
+    title: 'Antique Bronze Sculpture',
+    image: antiques,
+    cost: '65 Lakh',
+    location: 'Mumbai, Maharashtra',
+    views: '1,234 views',
+    category: 'Antiques',
+  },
+];
+
+const collectablesData = [
+  {
+    id: 1,
+    title: 'Rare Vintage Rolex Collection',
+    image: collectables,
+    cost: '2.25 Crore',
+    location: 'Mumbai, Maharashtra',
+    views: '1,876 views',
+    category: 'Collectables',
+  },
+  {
+    id: 2,
+    title: 'Limited Edition Comic Book Set',
+    image: collectables,
+    cost: '35 Lakh',
+    location: 'Bangalore, Karnataka',
+    views: '543 views',
+    category: 'Collectables',
+  },
+  {
+    id: 3,
+    title: 'Rare Stamp Collection - India',
+    image: collectables,
+    cost: '18.5 Lakh',
+    location: 'New Delhi, Delhi',
+    views: '987 views',
+    category: 'Collectables',
+  },
+];
+
+const othersData = [
+  {
+    id: 1,
+    title: 'Luxury Yacht - 80 Feet',
+    image: others,
+    cost: '18 Crore',
+    location: 'Goa',
+    views: '2,987 views',
+    category: 'Others',
+  },
+  {
+    id: 2,
+    title: 'Private Jet - Cessna Citation',
+    image: others,
+    cost: '55 Crore',
+    location: 'Mumbai, Maharashtra',
+    views: '4,521 views',
+    category: 'Others',
+  },
+  {
+    id: 3,
+    title: 'Premium Home Theater System',
+    image: others,
+    cost: '75 Lakh',
+    location: 'Bangalore, Karnataka',
+    views: '1,543 views',
+    category: 'Others',
+  },
+];
+
 const BuyNow = () => {
   const [selectedBtn, setSelectedBtn] = useState('All');
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -343,6 +467,10 @@ const BuyNow = () => {
       <RealEstateComponent data={carsData} name='Cars' />
       <RealEstateComponent data={furnitureData} name='Furniture' />
       <RealEstateComponent data={jewelleryData} name='Jewellery & Watches' />
+      <RealEstateComponent data={artsData} name='Arts & Paintings' />
+      <RealEstateComponent data={antiquesData} name='Antiques' />
+      <RealEstateComponent data={collectablesData} name='Collectables' />
+      <RealEstateComponent data={othersData} name='Others' />
     </div>
   );
 };
