@@ -9,6 +9,7 @@ import { GrLocation } from 'react-icons/gr';
 
 import { FiPhone } from 'react-icons/fi';
 import { MdMailOutline } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -42,10 +43,16 @@ const Footer = () => {
           <div className='footer-link-container'>
             <h3 className='footer-link-heading'>Quick Links</h3>
             <div className='footer-links'>
-              <span>About Us</span>
+              <Link to='about-us'>
+                <span>About Us</span>
+              </Link>
               <span>How It Works</span>
-              <span>Our Services</span>
-              <span>Pricing Plans</span>
+              <Link to='our-services'>
+                <span>Our Services</span>
+              </Link>
+              <Link to='pricing-plans'>
+                <span>Pricing Plans</span>
+              </Link>
               <span>Advertise</span>
               <span>Contact Us</span>
             </div>

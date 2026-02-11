@@ -1,0 +1,173 @@
+.our-services-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.our-services-background {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(180deg, #2c2c2c 0%, #1a1a1a 100%);
+  padding: 80px 68px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.our-services-heading {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #fff;
+}
+
+.our-services-text {
+  width: 763px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(209, 213, 220, 1);
+  text-align: center;
+}
+
+.our-services-offer-container {
+  width: 90%;
+  margin: 48px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.our-services-offer-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.offer-heading {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  color: rgba(44, 44, 44, 1);
+}
+
+.offer-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(74, 85, 101, 1);
+}
+
+.our-services-offer-grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.our-services-grid-item-container {
+  background: rgba(255, 255, 255, 1);
+  border: 1.25px solid rgba(229, 231, 235, 1);
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.our-services-grid-item-icon-container {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #d4af37 0%, #b8941f 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: #fff;
+}
+
+.our-services-grid-item-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: rgba(44, 44, 44, 1);
+}
+
+.our-services-grid-item-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(74, 85, 101, 1);
+}
+
+.our-services-points-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.our-services-point-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(54, 65, 83, 1);
+}
+
+.our-services-circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(212, 175, 55, 1);
+}
+
+.our-services-committe-container {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(180deg, #ffffff 0%, #fff8e7 100%);
+  padding: 64px 68px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.committe-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.committe-heading {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  color: rgba(44, 44, 44, 1);
+}
+
+.committe-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(74, 85, 101, 1);
+}
+
+.committe-grid-container {
+  width: 75%;
+  margin: 32px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
