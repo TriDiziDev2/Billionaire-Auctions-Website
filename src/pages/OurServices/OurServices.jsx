@@ -6,6 +6,8 @@ import { LuBanknote } from 'react-icons/lu';
 import { RiBankLine } from 'react-icons/ri';
 import { LiaBalanceScaleSolid } from 'react-icons/lia';
 import { GrPowerCycle } from 'react-icons/gr';
+import { GoPerson } from 'react-icons/go';
+import { LuBriefcase } from 'react-icons/lu';
 
 const services = [
   {
@@ -129,7 +131,76 @@ const OurServices = () => {
             Experienced professionals dedicated to your success
           </p>
         </div>
-        <div className='committe-grid-container'></div>
+        <div className='committe-grid-container'>
+          <div className='committe-grid-item-container'>
+            <div className='committe-tag-container'>
+              Banking & Loan Advisory
+            </div>
+            <h3 className='committe-member'>Ramesh Seethala</h3>
+            <p className='committe-position'>Founder & CEO - NRI Bhooseva</p>
+            <p className='committe-text'>(Retired Chief Bank Manager)</p>
+            <div className='committe-list-container'>
+              <p className='committe-item-title'>Expert guidance on: </p>
+              <div className='committe-list-item-container'>
+                <div className='committe-circle'></div> Home loans
+              </div>
+              <div className='committe-list-item-container'>
+                <div className='committe-circle'></div> Property-related banking
+                support
+              </div>
+              <div className='committe-list-item-container'>
+                <div className='committe-circle'></div> Financial compliance for
+                NRI
+              </div>
+            </div>
+            <button className='committe-btn'>
+              <GoPerson /> Consult with Ramesh
+            </button>
+          </div>
+          <div className='committe-grid-item-container'>
+            <div className='committe-tag-container'>Legal Advisory</div>
+            <h3 className='committe-member'>Jaya Subba Reddy Konda</h3>
+            <p className='committe-position'>Head - Legal Team</p>
+            <p className='committe-text'>
+              Expert in property law and transactions
+            </p>
+            <div className='committe-list-container'>
+              <p className='committe-item-title'>Expert guidance on: </p>
+              <div className='committe-list-item-container'>
+                <div className='committe-circle'></div> Property title
+                verification
+              </div>
+              <div className='committe-list-item-container'>
+                <div className='committe-circle'></div> Sale deed & agreements
+                support
+              </div>
+              <div className='committe-list-item-container'>
+                <div className='committe-circle'></div> Legal compliance for
+                property transactions
+              </div>
+            </div>
+            <button className='committe-btn'>
+              <GoPerson /> Consult with Jaya
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className='our-services-personalized-container'>
+        <div className='personalized-content-container'>
+          <h2 className='personalized-heading'>
+            Need Personalized Assistance?
+          </h2>
+          <p className='personalized-text'>
+            Our team of experts is ready to help you with tailored solutions for
+            your unique requirements
+          </p>
+          <div className='personalized-btn-container'>
+            <button className='schedule-btn'>
+              <LuBriefcase /> Schedule Consultation
+            </button>
+            <button className='services-btn'>Download Services Brochure</button>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -673,3 +673,132 @@
   line-height: 22.75px;
   color: rgba(54, 65, 83, 1);
 }
+
+@media screen and (max-width: 510px) {
+  .about-us-container {
+    width: 100%;
+  }
+
+  .about-us-background {
+    width: 100%;
+    background-image: cover;
+  }
+
+  .about-us-heading {
+    font-size: 24px;
+  }
+
+  .about-us-text {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .about-us-founder-info-container {
+    width: 100%;
+    padding: 32px 18px;
+  }
+
+  .person-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .founder-heading {
+    font-size: 32px;
+  }
+
+  .founder-text {
+    font-size: 16px;
+  }
+
+  .about-us-founder-info-grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .about-us-billionaire-auction-container {
+    width: 100%;
+    padding: 32px 18px;
+  }
+
+  .billionaire-heading {
+    font-size: 24px;
+  }
+
+  .billionaire-auction-container {
+    width: 100%;
+  }
+
+  .billionaire-auction-grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .why-choose-section {
+    width: 100%;
+    padding: 32px 18px;
+  }
+
+  .award-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .why-choose-heading {
+    font-size: 24px;
+  }
+
+  .why-choose-grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .why-choose-grid-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .why-choose-item-icon-container {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .why-choose-item-title {
+    font-size: 18px;
+  }
+
+  .why-choose-item-text {
+    font-size: 14px;
+  }
+
+  .future-roadmap-container {
+    width: 100%;
+    padding: 32px 18px;
+  }
+
+  .future-roadmap-heading {
+    font-size: 24px;
+  }
+
+  .future-roadmap-text {
+    font-size: 16px;
+  }
+
+  .future-roadmap-grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .future-roadmap-item-icon-container {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .future-roadmap-item-title {
+    font-size: 18px;
+  }
+
+  .future-roadmap-item-text {
+    font-size: 14px;
+  }
+}

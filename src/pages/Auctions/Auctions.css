@@ -138,3 +138,42 @@
   flex-direction: column;
   gap: 5px;
 }
+
+@media screen and (max-width: 510px) {
+  .auctions-steps-main-container {
+    width: 100%;
+    padding: 32px 18px;
+  }
+
+  .auctions-step-heading {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .auctions-step-text {
+    font-size: 13px;
+  }
+
+  .auctions-step-grid-container {
+    grid-template-columns: 1fr;
+    margin: 20px 0px;
+  }
+
+  .auctions-step-item-icon-container {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .auctions-step-item-heading {
+    font-size: 24px;
+  }
+
+  .auctions-step-item-title {
+    font-size: 18px;
+  }
+
+  .auctions-step-item-text {
+    font-size: 14px;
+  }
+}

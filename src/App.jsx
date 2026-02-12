@@ -10,6 +10,8 @@ import ToLet from './pages/ToLet/ToLet';
 import AboutUs from './pages/AboutUs/AboutUs';
 import PricingPlans from './pages/PricingPlans/PricingPlans';
 import OurServices from './pages/OurServices/OurServices';
+import HowItWorks from './pages/HowItWorks/HowItWorks';
+import Advertise from './pages/Advertise/Advertise';
 
 const App = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
           <Route path='about-us' element={<AboutUs />} />
           <Route path='pricing-plans' element={<PricingPlans />} />
           <Route path='our-services' element={<OurServices />} />
+          <Route path='how-it-works' element={<HowItWorks />} />
+          <Route path='advertise' element={<Advertise />} />
         </Route>
       </Routes>
       <Footer />

@@ -24,3 +24,19 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
+
+@media screen and (max-width: 510px) {
+  .real-estate-component-container {
+    width: 100%;
+  }
+
+  .real-estate-component-view-btn {
+    font-size: 12px;
+  }
+
+  .real-estate-component-grid-container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}

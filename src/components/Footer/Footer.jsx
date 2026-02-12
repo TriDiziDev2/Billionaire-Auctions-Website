@@ -46,14 +46,18 @@ const Footer = () => {
               <Link to='about-us'>
                 <span>About Us</span>
               </Link>
-              <span>How It Works</span>
+              <Link to='how-it-works'>
+                <span>How It Works</span>
+              </Link>
               <Link to='our-services'>
                 <span>Our Services</span>
               </Link>
               <Link to='pricing-plans'>
                 <span>Pricing Plans</span>
               </Link>
-              <span>Advertise</span>
+              <Link to='advertise'>
+                <span>Advertise</span>
+              </Link>
               <span>Contact Us</span>
             </div>
           </div>

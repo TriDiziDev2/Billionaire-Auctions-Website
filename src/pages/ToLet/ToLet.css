@@ -244,3 +244,101 @@
   line-height: 24px;
   color: rgba(153, 161, 175, 1);
 }
+
+@media screen and (max-width: 510px) {
+  .to-let-page-container {
+    width: 100%;
+  }
+
+  .to-let-page-background {
+    width: 100%;
+    padding: 32px 18px;
+  }
+
+  .to-let-heading {
+    font-size: 24px;
+  }
+
+  .to-let-home-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .to-let-text {
+    font-size: 14px;
+  }
+
+  .to-let-page-category-container {
+    width: 100%;
+    padding: 32px 18px;
+  }
+
+  .to-let-page-category-heading {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .to-let-page-category-text {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .to-let-page-category-grid-container {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .to-let-quick-filters-container {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 32px 18px;
+  }
+
+  .to-let-properties-container {
+    width: 100%;
+    padding: 18px;
+  }
+
+  .property-heading {
+    font-size: 24px;
+  }
+
+  .property-text {
+    font-size: 12px;
+  }
+
+  .property-grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .to-let-rent-us-container {
+    width: 100%;
+    padding: 32px 18px;
+  }
+
+  .rent-us-heading {
+    font-size: 24px;
+  }
+
+  .rent-us-text {
+    font-size: 14px;
+  }
+
+  .rent-us-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .rent-us-item-icon-container {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .rent-us-item-title {
+    font-size: 16px;
+  }
+
+  .rent-us-item-text {
+    font-size: 12px;
+  }
+}
