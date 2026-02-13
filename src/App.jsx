@@ -12,6 +12,10 @@ import PricingPlans from './pages/PricingPlans/PricingPlans';
 import OurServices from './pages/OurServices/OurServices';
 import HowItWorks from './pages/HowItWorks/HowItWorks';
 import Advertise from './pages/Advertise/Advertise';
+import ContactUs from './pages/ContactUs/ContactUs';
+import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy';
+import TermsConditions from './pages/TermsConditions/TermsConditions';
+import RefundPolicy from './pages/RefundPolicy/RefundPolicy';
 
 const App = () => {
   return (
@@ -29,6 +33,10 @@ const App = () => {
           <Route path='our-services' element={<OurServices />} />
           <Route path='how-it-works' element={<HowItWorks />} />
           <Route path='advertise' element={<Advertise />} />
+          <Route path='contact-us' element={<ContactUs />} />
+          <Route path='privacy-policy' element={<PrivacyPolicy />} />
+          <Route path='terms-conditions' element={<TermsConditions />} />
+          <Route path='refund-policy' element={<RefundPolicy />} />
         </Route>
       </Routes>
       <Footer />

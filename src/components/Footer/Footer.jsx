@@ -58,7 +58,9 @@ const Footer = () => {
               <Link to='advertise'>
                 <span>Advertise</span>
               </Link>
-              <span>Contact Us</span>
+              <Link to='contact-us'>
+                <span>Contact Us</span>
+              </Link>
             </div>
           </div>
           <div className='footer-link-container'>
@@ -100,9 +102,15 @@ const Footer = () => {
           &copy; 2026 Billionaire Auction. All rights reserved.
         </p>
         <div className='footer-section-links-container'>
-          <span>Privacy Policy</span>
-          <span>Terms & Conditions</span>
-          <span>Refund Policy</span>
+          <Link to='privacy-policy'>
+            <span>Privacy Policy</span>
+          </Link>
+          <Link to='terms-conditions'>
+            <span>Terms & Conditions</span>
+          </Link>
+          <Link to='refund-policy'>
+            <span>Refund Policy</span>
+          </Link>
           <span>Cancellation Policy</span>
         </div>
       </div>

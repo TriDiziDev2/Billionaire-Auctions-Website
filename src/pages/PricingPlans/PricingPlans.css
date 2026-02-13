@@ -170,3 +170,26 @@
   top: -20px;
   left: 32%;
 }
+
+@media screen and (max-width: 510px) {
+  .pricing-page-container {
+    width: 100%;
+  }
+
+  .pricing-page-background {
+    width: 100%;
+    padding: 48px 18px;
+  }
+
+  .pricing-page-heading {
+    font-size: 32px;
+  }
+
+  .pricing-page-text {
+    font-size: 16px;
+  }
+
+  .pricing-page-grid-container {
+    grid-template-columns: 1fr;
+  }
+}

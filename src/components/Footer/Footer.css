@@ -153,6 +153,10 @@
   text-decoration: none;
 }
 
+.footer-section-links-container a {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 510px) {
   .footer-container {
     width: 100%;
