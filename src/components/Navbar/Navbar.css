@@ -159,62 +159,6 @@
 
 @media screen and (max-width: 510px) {
   .navbar-container {
-    width: 100%;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
-
-  .company-logo {
-    width: 127px;
-    height: 33px;
-  }
-
-  .nav-links-container,
-  .nav-btns-container {
     display: none;
-  }
-
-  .mobile-nav-links-container {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-
-  .mobile-nav-link-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    cursor: pointer;
-    font-size: 9.76px;
-    line-height: 11.06px;
-    color: rgba(212, 175, 55, 1);
-  }
-
-  .mobile-nav-img {
-    width: 13px;
-    height: 13px;
-  }
-
-  .country-btn {
-    width: 52px;
-    height: 20px;
-    font-size: 6.89px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
-
-  .globe-icon {
-    width: 10px;
-    height: 10px;
-  }
-
-  .burger-container {
-    color: #fff;
-    margin-left: 8px;
   }
 }

@@ -161,7 +161,7 @@
   .footer-container {
     width: 100%;
     background: linear-gradient(180deg, #2c2c2c 0%, #1a1a1a 100%);
-    padding: 32px 24px 0 24px;
+    padding: 24px 16px;
     display: flex;
     flex-direction: column;
     gap: 48px;
@@ -174,12 +174,18 @@
     gap: 16px;
   }
 
+  .footer-info-container {
+    width: 100%;
+  }
+
   .footer-info-header {
     font-size: 24px;
     color: #fff;
   }
 
   .footer-info-text {
+    width: fit-content;
+    font-size: 8px;
     color: rgba(153, 161, 175, 1);
   }
 
@@ -226,7 +232,7 @@
   }
 
   .footer-section-links-container span {
-    font-size: 12px;
+    font-size: 11px;
     line-height: 20px;
     color: rgba(153, 161, 175, 1);
   }

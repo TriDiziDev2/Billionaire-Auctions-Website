@@ -163,7 +163,8 @@
 }
 
 @media screen and (max-width: 510px) {
-  .exclusive-updates-background {
+  .exclusive-updates-background,
+  .exclusive-updates-content-container {
     width: 100%;
   }
 
@@ -172,8 +173,12 @@
   }
 
   .exclusive-updates-heading,
-  .sub-heading {
+  .exclusive-updates-sub-heading {
     font-size: 24px;
+  }
+
+  .exclusive-updates-sub-heading {
+    color: rgba(212, 175, 55, 1);
   }
 
   .exclusive-updates-text {
@@ -182,20 +187,27 @@
   }
 
   .exclusive-email-subscribe-btn-container {
-    width: 100%;
-    height: 98px;
-  }
-
-  .exclusive-email-subscribe-btn-container {
-    width: 100%;
+    width: 95%;
+    margin: 0px auto;
     height: auto;
-    padding: 10px 16px;
+    padding: 12px;
+    gap: 3px;
   }
 
   .exclusive-email-btn-container {
     width: 100%;
+    gap: 4px;
+  }
+
+  .exclusive-email-icon-container {
+    width: 70%;
+    height: 25px;
+  }
+
+  .email-icon-container {
+    width: auto;
     height: auto;
-    padding: 4px 8px;
+    padding: 4px;
   }
 
   .email-icon {
@@ -208,17 +220,20 @@
   }
 
   .exclusive-btn {
-    width: 163px;
-    height: 40px;
-    font-size: 6.25px;
-    padding: 4px 8px;
+    width: 30%;
+    height: 25px;
+    font-size: 8px;
+    padding: 4px 6px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 32px;
   }
 
   .exclusive-hightlight-container {
-    font-size: 12px;
+    width: 100%;
+    font-size: 9px;
+    justify-content: center;
   }
 
   .exclusive-updates-footer-text {

@@ -13,7 +13,8 @@ const ExclusiveUpdates = () => {
           Updates
         </div>
         <h1 className='exclusive-updates-heading'>
-          Never Miss a <span className='sub-heading'>Luxury Deal</span>
+          Never Miss a{' '}
+          <span className='exclusive-updates-sub-heading'>Luxury Deal</span>
         </h1>
         <p className='exclusive-updates-text'>
           Subscribe to our newsletter and get early access to exclusive

@@ -48,7 +48,7 @@ const BillionaireAuction = () => {
               <div className='experience-content-container' key={id}>
                 <span className='auction-icon'>{icon}</span>
                 <h3 className='auction-title'>{title}</h3>
-                <p className='auction-desc'>{text}</p>
+                <p className='auctions-desc'>{text}</p>
               </div>
             );
           })}

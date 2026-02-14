@@ -25,46 +25,6 @@ const Navbar = () => {
           className='company-logo'
         />
 
-        <div className='mobile-nav-links-container'>
-          <Link to='marketplace'>
-            <div className='mobile-nav-link-container'>
-              <img
-                src={marketplace}
-                alt='market place'
-                className='mobile-nav-img'
-              />
-              Marketplace
-            </div>
-          </Link>
-          <Link to='buy-now'>
-            <div className='mobile-nav-link-container'>
-              <img
-                src={sellNow}
-                alt='market place'
-                className='mobile-nav-img'
-              />
-              Buy Now
-            </div>
-          </Link>
-          <Link to='auctions'>
-            <div className='mobile-nav-link-container'>
-              <img src={hammer} alt='market place' className='mobile-nav-img' />
-              Auctions
-            </div>
-          </Link>
-          <Link to='to-let'>
-            <div className='mobile-nav-link-container'>
-              <img src={toLet} alt='market place' className='mobile-nav-img' />
-              To-let
-            </div>
-          </Link>
-          <button className='country-btn'>
-            <PiGlobeBold className='globe-icon' /> India
-          </button>
-          <div className='burger-container'>
-            <CiMenuBurger />
-          </div>
-        </div>
         <ul className='nav-links-container'>
           <li>
             <Link to='marketplace'>Marketplace</Link>

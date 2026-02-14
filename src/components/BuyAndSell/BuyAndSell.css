@@ -91,19 +91,24 @@
     gap: 4px;
   }
 
+  .buy-container {
+    width: 100%;
+    padding: 16px 10px;
+  }
+
   .buy-icon-container {
-    width: 33px;
-    height: 33px;
-    font-size: 16.5px;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
   }
 
   .buy-heading {
-    font-size: 15.51px;
+    font-size: 14px;
     line-height: 18.61px;
   }
 
   .buy-text {
-    font-size: 9.3px;
+    font-size: 8px;
     line-height: 14.47px;
   }
 

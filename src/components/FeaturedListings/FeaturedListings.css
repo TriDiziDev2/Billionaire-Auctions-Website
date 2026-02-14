@@ -88,7 +88,8 @@
 
   .featured-listings-grid-container {
     width: 100%;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 4px;
+    display: flex;
+    gap: 3px;
+    overflow-x: scroll;
   }
 }

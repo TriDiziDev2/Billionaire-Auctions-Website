@@ -10,7 +10,6 @@ import ToLet from './pages/ToLet/ToLet';
 import AboutUs from './pages/AboutUs/AboutUs';
 import PricingPlans from './pages/PricingPlans/PricingPlans';
 import OurServices from './pages/OurServices/OurServices';
-import HowItWorks from './pages/BuyAndSell/BuyAndSell';
 import Advertise from './pages/Advertise/Advertise';
 import ContactUs from './pages/ContactUs/ContactUs';
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy';
@@ -18,11 +17,13 @@ import TermsConditions from './pages/TermsConditions/TermsConditions';
 import RefundPolicy from './pages/RefundPolicy/RefundPolicy';
 import MobileFooter from './components/MobileFooter/MobileFooter';
 import OurPartners from './pages/OurPartners/OurPartners';
-import BuyAndSell from './components/BuyAndSell/BuyAndSell';
+import HowToBuyAndSell from './pages/HowToBuyAndSell/HowToBuyAndSell';
+import MobileNavbar from './components/MobileNavbar/MobileNavbar';
 
 const App = () => {
   return (
     <BrowserRouter>
+      <MobileNavbar />
       <Navbar />
       <Routes>
         <Route path='/' element={<LandingPage />}>
@@ -35,7 +36,7 @@ const App = () => {
           <Route path='browse/our-services' element={<OurServices />} />
           <Route path='browse/about-us' element={<AboutUs />} />
           <Route path='browse/pricing-plans' element={<PricingPlans />} />
-          <Route path='browse/buy-sell' element={<BuyAndSell />} />
+          <Route path='browse/buy-sell' element={<HowToBuyAndSell />} />
           <Route path='browse/advertise' element={<Advertise />} />
           <Route path='contact-us' element={<ContactUs />} />
           <Route path='privacy-policy' element={<PrivacyPolicy />} />
