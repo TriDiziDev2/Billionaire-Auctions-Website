@@ -43,19 +43,17 @@ const Footer = () => {
           <div className='footer-link-container'>
             <h3 className='footer-link-heading'>Quick Links</h3>
             <div className='footer-links'>
-              <Link to='about-us'>
+              <Link to='browse/about-us'>
                 <span>About Us</span>
               </Link>
-              <Link to='how-it-works'>
-                <span>How It Works</span>
-              </Link>
-              <Link to='our-services'>
+              <span>How It Works</span>
+              <Link to='browse/our-services'>
                 <span>Our Services</span>
               </Link>
-              <Link to='pricing-plans'>
+              <Link to='browse/pricing-plans'>
                 <span>Pricing Plans</span>
               </Link>
-              <Link to='advertise'>
+              <Link to='browse/advertise'>
                 <span>Advertise</span>
               </Link>
               <Link to='contact-us'>

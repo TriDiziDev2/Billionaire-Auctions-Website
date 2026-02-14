@@ -11,8 +11,11 @@ import hammer from '../../assets/hammer.png';
 import sellNow from '../../assets/sell-now.png';
 import toLet from '../../assets/to-let.png';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 const Navbar = () => {
+  const [isBrowseLinksOpen, setIsBrowseLinksOpen] = useState(false);
+
   return (
     <div className='navbar-container'>
       <div className='navbar-logo-links-container'>
@@ -75,8 +78,33 @@ const Navbar = () => {
           <li>
             <Link to='to-let'>To Let</Link>
           </li>
-          <li className='browse-link'>
+          <li
+            className='browse-link'
+            onClick={() => setIsBrowseLinksOpen(!isBrowseLinksOpen)}
+          >
             Browse <FaAngleDown />
+            {isBrowseLinksOpen && (
+              <div className='browse-links-container'>
+                <Link to='browse/our-partners'>
+                  <span>Our Partners</span>
+                </Link>
+                <Link to='browse/our-services'>
+                  <span>Services</span>
+                </Link>
+                <Link to='browse/about-us'>
+                  <span>About Us</span>
+                </Link>
+                <Link to='browse/pricing-plans'>
+                  <span>Pricing</span>
+                </Link>
+                <Link to='browse/buy-sell'>
+                  <span>How to buy and sell</span>
+                </Link>
+                <Link to='browse/advertise'>
+                  <span>Advertise</span>
+                </Link>
+              </div>
+            )}
           </li>
         </ul>
       </div>

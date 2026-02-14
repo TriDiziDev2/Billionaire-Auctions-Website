@@ -1,4 +1,4 @@
-import './HowItWorks.css';
+import './BuyAndSell.css';
 
 import { GoPerson } from 'react-icons/go';
 import { FiSearch } from 'react-icons/fi';
@@ -48,7 +48,7 @@ const sellData = [
   },
 ];
 
-const HowItWorks = () => {
+const BuyAndSell = () => {
   return (
     <div className='how-it-works-container'>
       <div className='how-it-works-background'>
@@ -122,4 +122,4 @@ const HowItWorks = () => {
   );
 };
 
-export default HowItWorks;
+export default BuyAndSell;

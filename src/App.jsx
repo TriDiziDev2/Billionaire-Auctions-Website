@@ -10,13 +10,15 @@ import ToLet from './pages/ToLet/ToLet';
 import AboutUs from './pages/AboutUs/AboutUs';
 import PricingPlans from './pages/PricingPlans/PricingPlans';
 import OurServices from './pages/OurServices/OurServices';
-import HowItWorks from './pages/HowItWorks/HowItWorks';
+import HowItWorks from './pages/BuyAndSell/BuyAndSell';
 import Advertise from './pages/Advertise/Advertise';
 import ContactUs from './pages/ContactUs/ContactUs';
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy';
 import TermsConditions from './pages/TermsConditions/TermsConditions';
 import RefundPolicy from './pages/RefundPolicy/RefundPolicy';
 import MobileFooter from './components/MobileFooter/MobileFooter';
+import OurPartners from './pages/OurPartners/OurPartners';
+import BuyAndSell from './components/BuyAndSell/BuyAndSell';
 
 const App = () => {
   return (
@@ -29,11 +31,12 @@ const App = () => {
           <Route path='buy-now' element={<BuyNow />} />
           <Route path='auctions' element={<Auctions />} />
           <Route path='to-let' element={<ToLet />} />
-          <Route path='about-us' element={<AboutUs />} />
-          <Route path='pricing-plans' element={<PricingPlans />} />
-          <Route path='our-services' element={<OurServices />} />
-          <Route path='how-it-works' element={<HowItWorks />} />
-          <Route path='advertise' element={<Advertise />} />
+          <Route path='browse/our-partners' element={<OurPartners />} />
+          <Route path='browse/our-services' element={<OurServices />} />
+          <Route path='browse/about-us' element={<AboutUs />} />
+          <Route path='browse/pricing-plans' element={<PricingPlans />} />
+          <Route path='browse/buy-sell' element={<BuyAndSell />} />
+          <Route path='browse/advertise' element={<Advertise />} />
           <Route path='contact-us' element={<ContactUs />} />
           <Route path='privacy-policy' element={<PrivacyPolicy />} />
           <Route path='terms-conditions' element={<TermsConditions />} />

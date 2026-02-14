@@ -41,6 +41,47 @@
   gap: 5px;
   color: #fff;
   cursor: pointer;
+  position: relative;
+}
+
+.browse-links-container {
+  width: 280px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #fff;
+  color: #2c2c2c;
+  border-radius: 8px;
+  border: 2px solid rgba(212, 175, 55, 1);
+  position: absolute;
+  top: 50px;
+  z-index: 9;
+}
+
+.browse-links-container a {
+  width: 100%;
+  padding: 8px 16px;
+  transition: all 0.5s ease;
+  color: #2c2c2c;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.browse-links-container span {
+  color: #2c2c2c;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.browse-links-container a:hover {
+  width: 100%;
+  background: rgba(212, 175, 55, 1);
+  color: #fff;
+}
+
+.browse-links-container span:hover {
+  color: #fff;
 }
 
 .nav-btns-container {
