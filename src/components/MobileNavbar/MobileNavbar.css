@@ -1,3 +1,7 @@
+.mobile-navbar-container {
+  display: none;
+}
+
 @media screen and (max-width: 510px) {
   .mobile-navbar-container {
     width: 100%;
@@ -12,12 +16,12 @@
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: space-between;
   }
 
   .mobile-logo {
-    width: 100px;
-    height: 33px;
+    width: 70px;
+    height: 27px;
     cursor: pointer;
   }
 

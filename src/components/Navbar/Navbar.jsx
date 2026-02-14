@@ -19,12 +19,13 @@ const Navbar = () => {
   return (
     <div className='navbar-container'>
       <div className='navbar-logo-links-container'>
-        <img
-          src={companyLogo}
-          alt='Billionaire Auctions Website'
-          className='company-logo'
-        />
-
+        <Link to='/'>
+          <img
+            src={companyLogo}
+            alt='Billionaire Auctions Website'
+            className='company-logo'
+          />
+        </Link>
         <ul className='nav-links-container'>
           <li>
             <Link to='marketplace'>Marketplace</Link>
