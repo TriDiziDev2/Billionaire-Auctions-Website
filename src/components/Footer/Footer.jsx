@@ -109,9 +109,8 @@ const Footer = () => {
             <span>Terms & Conditions</span>
           </Link>
           <Link to='refund-policy'>
-            <span>Refund Policy</span>
+            <span>Refund & Cancellation Policy</span>
           </Link>
-          <span>Cancellation Policy</span>
         </div>
       </div>
     </div>
