@@ -20,15 +20,15 @@
   }
 
   .mobile-logo {
-    width: 70px;
-    height: 27px;
+    width: 50px;
+    height: 25px;
     cursor: pointer;
   }
 
   .mobile-nav-links-container {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
   }
 
   .mobile-nav-link-container {
@@ -43,12 +43,12 @@
   .mobile-nav-links-container a {
     text-decoration: none;
     color: rgba(212, 175, 55, 1);
-    font-size: 9px;
+    font-size: 8px;
   }
 
   .mobile-nav-logo {
-    width: 14px;
-    height: 14px;
+    width: 12px;
+    height: 12px;
   }
 
   .mobile-nav-login-burger-container {

@@ -58,8 +58,7 @@
 
 .real-estate-grid-container {
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   gap: 24px;
 }
 
@@ -88,7 +87,7 @@
   }
 
   .real-estate-grid-container {
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     gap: 2px;
   }
 }

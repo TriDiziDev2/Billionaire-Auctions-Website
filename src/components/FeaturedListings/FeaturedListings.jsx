@@ -41,16 +41,16 @@ const featuredData = [
     category: 'Jewellery & Watches',
     location: 'Hyderabad',
   },
-  // {
-  //   id: 4,
-  //   title: 'Contemporary Art Masterpiece',
-  //   year: 'Authenticated',
-  //   time: '1 days ago',
-  //   image: home,
-  //   cost: '2,40,00,000',
-  //   category: 'Arts & Paintings',
-  //   location: 'Pune',
-  // },
+  {
+    id: 4,
+    title: 'Contemporary Art Masterpiece',
+    year: 'Authenticated',
+    time: '1 days ago',
+    image: home,
+    cost: '2,40,00,000',
+    category: 'Arts & Paintings',
+    location: 'Pune',
+  },
 ];
 
 const FeaturedListings = () => {
