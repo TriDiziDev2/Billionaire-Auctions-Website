@@ -35,14 +35,14 @@ const realEstateData = [
     city: 'Bangalore, Karnataka',
     location: 'Bangalore',
   },
-  {
-    id: 4,
-    title: 'Colonial Mansion',
-    image: apartment,
-    cost: '35,00,00,000',
-    city: 'Kolkata, West Bengal',
-    location: 'Kolkata',
-  },
+  // {
+  //   id: 4,
+  //   title: 'Colonial Mansion',
+  //   image: apartment,
+  //   cost: '35,00,00,000',
+  //   city: 'Kolkata, West Bengal',
+  //   location: 'Kolkata',
+  // },
 ];
 
 const RealEstate = () => {
