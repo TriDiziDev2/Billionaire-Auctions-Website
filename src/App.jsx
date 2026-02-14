@@ -16,6 +16,7 @@ import ContactUs from './pages/ContactUs/ContactUs';
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy';
 import TermsConditions from './pages/TermsConditions/TermsConditions';
 import RefundPolicy from './pages/RefundPolicy/RefundPolicy';
+import MobileFooter from './components/MobileFooter/MobileFooter';
 
 const App = () => {
   return (
@@ -40,6 +41,7 @@ const App = () => {
         </Route>
       </Routes>
       <Footer />
+      <MobileFooter />
     </BrowserRouter>
   );
 };
