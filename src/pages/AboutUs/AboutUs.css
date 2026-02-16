@@ -802,3 +802,219 @@
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 430px) {
+  .about-us-heading {
+    font-size: 20px;
+  }
+
+  .founder-name {
+    font-size: 22px;
+  }
+
+  .founder-desc {
+    font-size: 18px;
+  }
+
+  .founder-education-container {
+    padding: 16px;
+  }
+
+  .graduate-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .education-heading {
+    font-size: 14px;
+  }
+
+  .education-text {
+    font-size: 12px;
+  }
+
+  .journey-container {
+    padding: 16px;
+  }
+
+  .journey-heading {
+    font-size: 20px;
+  }
+
+  .journey-text {
+    font-size: 14px;
+  }
+
+  .vision-container {
+    padding: 16px;
+  }
+
+  .vision-heading {
+    font-size: 20px;
+  }
+
+  .vision-quote {
+    font-size: 13px;
+    padding-left: 10px;
+  }
+
+  .vision-author {
+    font-size: 14px;
+  }
+
+  .building-container {
+    padding: 16px;
+  }
+
+  .building-heading {
+    font-size: 18px;
+  }
+
+  .building-text {
+    font-size: 14px;
+  }
+
+  .billionaire-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .billionaire-auction-container {
+    padding: 16px;
+  }
+
+  .billionaire-auction-text {
+    font-size: 16px;
+  }
+
+  .billionaire-auction-text span {
+    font-size: 16px;
+  }
+
+  .billionaire-auction-grid-item-container {
+    padding: 16px;
+  }
+
+  .billionaire-auction-grid-item-icon-container {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .billionaire-auction-grid-item-title {
+    font-size: 12px;
+  }
+
+  .billionaire-auction-footer {
+    padding: 16px;
+    font-size: 13px;
+  }
+
+  .why-choose-heading {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .why-choose-text {
+    font-size: 16px;
+  }
+
+  .why-choose-grid-item-container {
+    padding: 16px;
+    gap: 8px;
+  }
+
+  .why-choose-item-text {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .future-roadmap-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .future-roadmap-text {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .future-roadmap-grid-item-container {
+    padding: 16px;
+    gap: 8px;
+  }
+
+  .offline-luxury-auctions-container {
+    padding: 16px;
+    height: auto;
+  }
+
+  .hotel-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .offline-luxury-auctions-heading {
+    font-size: 18px;
+  }
+
+  .offline-luxury-auctions-text {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .offline-location-container {
+    padding: 12px;
+  }
+
+  .location-icon-container {
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+  }
+
+  .location-name {
+    font-size: 16px;
+  }
+
+  .community-membership-container {
+    padding: 16px;
+    height: auto;
+  }
+
+  .community-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .community-heading {
+    font-size: 14px;
+  }
+
+  .community-text {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .community-desc {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .community-list-item-container {
+    font-size: 10px;
+  }
+
+  .community-footer-text {
+    font-size: 12px;
+  }
+
+  .offline-luxury-auctions-container {
+    padding: 16px;
+  }
+
+  .hotel-icon {
+    width: 20px;
+    height: 20px;
+  }
+}

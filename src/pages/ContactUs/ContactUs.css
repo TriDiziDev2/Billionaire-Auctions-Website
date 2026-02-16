@@ -395,3 +395,95 @@
     font-size: 13px;
   }
 }
+
+@media screen and (max-width: 430px) {
+  .contact-us-background {
+    gap: 10px;
+  }
+
+  .message-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .contact-us-heading {
+    font-size: 24px;
+  }
+
+  .contact-us-text {
+    text-align: center;
+  }
+
+  .contact-us-grid-container {
+    width: 100%;
+    padding: 0px 16px;
+  }
+
+  .contact-us-form-container {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .form-heading {
+    font-size: 20px;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+
+  .form-btn {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+
+  .contact-us-icon-container {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .question-mark-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .faqs-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .faqs-text {
+    text-align: center;
+  }
+
+  .contact-us-faqs-accordion-container {
+    gap: 16px;
+  }
+
+  .accordion-container {
+    padding: 16px;
+  }
+
+  .accordion-heading {
+    font-size: 18px;
+  }
+
+  .contact-us-footer-container {
+    padding: 16px;
+  }
+
+  .footer-heading {
+    font-size: 22px;
+  }
+
+  .contact-us-footer-text {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .contact-footer-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+}

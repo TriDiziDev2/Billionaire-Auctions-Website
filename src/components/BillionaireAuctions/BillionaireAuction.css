@@ -163,7 +163,7 @@
   }
 
   .auction-text {
-    font-size: 7.73px;
+    font-size: 7.5px;
     line-height: 10.83px;
     text-align: center;
   }
@@ -182,6 +182,7 @@
   .experience-text {
     font-size: 6.96px;
     line-height: 10.83px;
+    text-align: center;
   }
 
   .experience-icon-content-container {

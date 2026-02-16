@@ -176,4 +176,8 @@
   .auctions-step-item-text {
     font-size: 14px;
   }
+
+  .auction-desc {
+    text-align: center;
+  }
 }

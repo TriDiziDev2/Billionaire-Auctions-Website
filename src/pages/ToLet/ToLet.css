@@ -256,16 +256,17 @@
   }
 
   .to-let-heading {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .to-let-home-icon {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
   }
 
   .to-let-text {
     font-size: 14px;
+    text-align: center;
   }
 
   .to-let-page-category-container {
@@ -285,7 +286,11 @@
 
   .to-let-page-category-grid-container {
     width: 100%;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .to-let-grid-item-title {
+    font-size: 13px;
   }
 
   .to-let-quick-filters-container {

@@ -32,13 +32,12 @@
     height: 100%;
     background: linear-gradient(180deg, #d4af37 0%, #b8941f 100%);
     color: #fff;
-    padding: 16px 24px 0px 24px;
+    padding: 8px 16px 0px 16px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 32px;
-    font-size: 10px;
-    line-height: 21.39px;
+    font-size: 9px;
     cursor: pointer;
     font-weight: 700;
   }

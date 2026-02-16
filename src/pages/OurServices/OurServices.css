@@ -438,3 +438,71 @@
     font-size: 12px;
   }
 }
+
+@media screen and (max-width: 430px) {
+  .our-services-heading {
+    font-size: 24px;
+  }
+
+  .offer-heading {
+    font-size: 24px;
+  }
+
+  .our-services-grid-item-container {
+    padding: 16px;
+  }
+
+  .our-services-grid-item-icon-container {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .our-services-grid-item-title {
+    font-size: 20px;
+  }
+
+  .our-services-grid-item-text {
+    font-size: 14px;
+  }
+
+  .committe-heading {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .committe-text {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .committe-grid-item-container {
+    padding: 16px;
+  }
+
+  .committe-tag-container {
+    padding: 6px 10px;
+    font-size: 10px;
+  }
+
+  .committe-member {
+    font-size: 20px;
+  }
+
+  .committe-position {
+    font-size: 16px;
+  }
+
+  .committe-list-item-container {
+    font-size: 13px;
+  }
+
+  .committe-btn {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  .personalized-heading {
+    font-size: 18px;
+  }
+}

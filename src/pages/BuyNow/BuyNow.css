@@ -273,12 +273,13 @@
 
   .buy-now-text {
     font-size: 14px;
+    text-align: center;
   }
 
   .buy-now-grid-container {
     width: 100%;
     gap: 16px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 
   .buy-now-item-container {
