@@ -6,11 +6,12 @@ import { FaAngleLeft } from 'react-icons/fa6';
 import { FaAngleRight } from 'react-icons/fa6';
 import { BsPatchCheck } from 'react-icons/bs';
 import { FaArrowTrendUp } from 'react-icons/fa6';
+import { GrLocation } from 'react-icons/gr';
+import { IoMdTime } from 'react-icons/io';
 
 import table from '../../assets/table.jpg';
 import watch from '../../assets/watch.jpg';
 import home from '../../assets/home.jpg';
-import FeaturedListingsCard from '../FeaturedListingsCard/FeaturedListingsCard';
 import RecommendationCard from '../RecommendationCard/RecommendationCard';
 
 const recommendationData = [
@@ -51,27 +52,120 @@ const recommendationData = [
 
 const Recommendations = () => {
   return (
-    <div className='recommendations-container'>
-      <div className='featured-listings-header'>
-        <div className='featured-listings-heading-container'>
-          <FaRegStar className='star-icon' />
-          <h3 className='featured-listings-heading'>Recommendations</h3>
-        </div>
-        <div className='featured-listings-arrow-btn-container'>
-          <button className='arrow-btn'>
-            <FaAngleLeft />
-          </button>
-          <button className='arrow-btn'>
-            <FaAngleRight />
-          </button>
+    <>
+      <div className='mobile-featured-listings-container'>
+        <h3 className='mobile-featured-heading'>
+          <FaRegStar className='mobile-crown-icon' /> Recommendations
+        </h3>
+        <div className='mobile-featured-listings-grid-container'>
+          <div className='mobile-featured-grid-item-one-container'>
+            <div className='mobile-featured-grid-item-image-container'>
+              <img src={table} alt='table' className='mobile-apartment-img' />
+              <div className='mobile-featured-grid-item-header'>
+                <div className='mobile-item-recommendation-container'>
+                  Luxury
+                </div>
+                <div className='mobile-grid-item-growth-icon-container'>
+                  <FaArrowTrendUp />
+                </div>
+              </div>
+              <div className='mobile-featured-item-footer'>
+                <p className='mobile-item-recommendation-cost'>₹18,50,000</p>
+                <p className='mobile-item-location'>
+                  <GrLocation /> Jaipur
+                </p>
+              </div>
+            </div>
+            <div className='mobile-featured-item-content-container'>
+              <p className='mobile-item-title'>Designer Dining Set</p>
+              <div className='mobile-recommendation-footer-container'>
+                <p className='mobile-time'>
+                  <IoMdTime /> 2 days ago
+                </p>
+                <p className='mobile-category'>Furniture</p>
+              </div>
+            </div>
+          </div>
+          <div className='mobile-featured-grid-item-one-container'>
+            <div className='mobile-featured-grid-item-image-container'>
+              <img src={watch} alt='watch' className='mobile-apartment-img' />
+              <div className='mobile-featured-grid-item-header'>
+                <div className='mobile-grid-item-check-icon-container'>
+                  <BsPatchCheck />
+                </div>
+                <div className='mobile-item-recommendation-container'>
+                  Luxury
+                </div>
+              </div>
+              <div className='mobile-featured-item-footer'>
+                <p className='mobile-item-recommendation-cost'>₹95,00,000</p>
+                <p className='mobile-item-location'>
+                  <GrLocation /> Mumbai
+                </p>
+              </div>
+            </div>
+            <div className='mobile-featured-item-content-container'>
+              <p className='mobile-item-title'>Patek Philippe Watch</p>
+              <div className='mobile-recommendation-footer-container'>
+                <p className='mobile-time'>
+                  <IoMdTime /> 1 day ago
+                </p>
+                <p className='mobile-category'>Jewellery & Watches</p>
+              </div>
+            </div>
+          </div>
+          <div className='mobile-featured-grid-item-one-container'>
+            <div className='mobile-featured-grid-item-image-container'>
+              <img src={watch} alt='watch' className='mobile-apartment-img' />
+              <div className='mobile-featured-grid-item-header'>
+                <div className='mobile-grid-item-check-icon-container'>
+                  <BsPatchCheck />
+                </div>
+                <div className='mobile-item-recommendation-container'>
+                  Luxury
+                </div>
+              </div>
+              <div className='mobile-featured-item-footer'>
+                <p className='mobile-item-recommendation-cost'>₹95,00,000</p>
+                <p className='mobile-item-location'>
+                  <GrLocation /> Mumbai
+                </p>
+              </div>
+            </div>
+            <div className='mobile-featured-item-content-container'>
+              <p className='mobile-item-title'>Patek Philippe Watch</p>
+              <div className='mobile-recommendation-footer-container'>
+                <p className='mobile-time'>
+                  <IoMdTime /> 1 day ago
+                </p>
+                <p className='mobile-category'>Jewellery & Watches</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div className='featured-listings-grid-container'>
-        {recommendationData.map((item) => (
-          <RecommendationCard key={item.id} {...item} />
-        ))}
+      <div className='recommendations-container'>
+        <div className='featured-listings-header'>
+          <div className='featured-listings-heading-container'>
+            <FaRegStar className='star-icon' />
+            <h3 className='featured-listings-heading'>Recommendations</h3>
+          </div>
+          <div className='featured-listings-arrow-btn-container'>
+            <button className='arrow-btn'>
+              <FaAngleLeft />
+            </button>
+            <button className='arrow-btn'>
+              <FaAngleRight />
+            </button>
+          </div>
+        </div>
+        <div className='featured-listings-grid-container'>
+          {recommendationData.map((item) => (
+            <RecommendationCard key={item.id} {...item} />
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
