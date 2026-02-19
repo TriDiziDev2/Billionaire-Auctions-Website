@@ -11,6 +11,7 @@
     border-radius: 32px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: fixed;
     bottom: 0;
   }
@@ -28,7 +29,7 @@
   }
 
   .mobile-footer-list-item-container {
-    width: fit-content;
+    width: 150px;
     height: 100%;
     background: linear-gradient(180deg, #d4af37 0%, #b8941f 100%);
     color: #fff;
@@ -37,7 +38,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 32px;
-    font-size: 9px;
+    font-size: 12px;
     cursor: pointer;
     font-weight: 700;
   }
@@ -54,7 +55,7 @@
     font-size: 20px;
     color: rgba(74, 85, 101, 1);
     position: absolute;
-    left: 42%;
+    left: 43%;
     top: -50%;
     cursor: pointer;
   }

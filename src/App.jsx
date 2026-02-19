@@ -19,6 +19,7 @@ import MobileFooter from './components/MobileFooter/MobileFooter';
 import OurPartners from './pages/OurPartners/OurPartners';
 import HowToBuyAndSell from './pages/HowToBuyAndSell/HowToBuyAndSell';
 import MobileNavbar from './components/MobileNavbar/MobileNavbar';
+import ProductPage from './pages/ProductPage/ProductPage';
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
           <Route path='browse/pricing-plans' element={<PricingPlans />} />
           <Route path='browse/buy-sell' element={<HowToBuyAndSell />} />
           <Route path='browse/advertise' element={<Advertise />} />
+          <Route path='products/:page/:category' element={<ProductPage />} />
           <Route path='contact-us' element={<ContactUs />} />
           <Route path='privacy-policy' element={<PrivacyPolicy />} />
           <Route path='terms-conditions' element={<TermsConditions />} />

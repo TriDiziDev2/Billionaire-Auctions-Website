@@ -148,7 +148,7 @@
 
   .featured-listings-card-image-container {
     width: 100%;
-    height: 132.95px;
+    height: 150px;
   }
 
   .featured-img {
@@ -193,8 +193,14 @@
     line-height: 9.23px;
   }
 
+  .featured-listings-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
   .featured-listings-title {
-    font-size: 7px;
+    font-size: 13px;
     line-height: 12.93px;
   }
 
@@ -216,7 +222,7 @@
 
   .featured-listings-time,
   .featured-listings-category {
-    font-size: 5px;
+    font-size: 12px;
     line-height: 9.23px;
   }
 }

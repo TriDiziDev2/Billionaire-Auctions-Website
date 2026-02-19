@@ -248,6 +248,10 @@
     line-height: 9.23px;
     color: rgba(106, 114, 130, 1);
   }
+
+  .featured-listings-heading {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 430px) {

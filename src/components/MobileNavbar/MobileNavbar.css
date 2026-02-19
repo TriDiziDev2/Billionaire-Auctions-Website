@@ -20,15 +20,15 @@
   }
 
   .mobile-logo {
-    width: 50px;
-    height: 25px;
+    width: 80px;
+    height: 30px;
     cursor: pointer;
   }
 
   .mobile-nav-links-container {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 10px;
   }
 
   .mobile-nav-link-container {
@@ -36,7 +36,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 7px;
+    gap: 8px;
     cursor: pointer;
   }
 
@@ -54,7 +54,7 @@
   .mobile-nav-login-burger-container {
     display: flex;
     align-items: center;
-    gap: 7px;
+    gap: 10px;
   }
 
   .mobile-country-btn {
