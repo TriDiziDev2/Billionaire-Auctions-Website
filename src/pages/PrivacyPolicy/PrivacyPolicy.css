@@ -389,5 +389,6 @@
   .privacy-policy-footer-container {
     width: 95%;
     margin: 0px auto 32px auto;
+    padding: 16px;
   }
 }

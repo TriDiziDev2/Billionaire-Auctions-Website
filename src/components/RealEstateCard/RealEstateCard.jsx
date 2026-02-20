@@ -22,8 +22,8 @@ const RealEstateCard = ({ title, image, cost, city, location }) => {
         </div>
       </div>
       <div className='featured-listings-content-container'>
-        <h3 className='featured-listings-title'>{title}</h3>
-        <p className='featured-listings-time'>{city}</p>
+        <h3 className='realestate-title'>{title}</h3>
+        <p className='realestate-time'>{city}</p>
       </div>
     </div>
   );

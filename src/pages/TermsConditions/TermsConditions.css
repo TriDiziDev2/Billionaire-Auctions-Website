@@ -263,4 +263,16 @@
   .terms-footer-text {
     font-size: 14px;
   }
+
+  .terms-conditions-address-container {
+    padding: 16px;
+  }
+
+  .terms-conditions-address {
+    font-size: 14px;
+  }
+
+  .terms-conditions-footer-container {
+    padding: 16px;
+  }
 }

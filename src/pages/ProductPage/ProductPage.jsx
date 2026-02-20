@@ -16,11 +16,41 @@ import { CgFileDocument } from 'react-icons/cg';
 import { PiCarProfile } from 'react-icons/pi';
 import { RiErrorWarningLine } from 'react-icons/ri';
 import { FiCheckCircle } from 'react-icons/fi';
+import { LuSquareArrowOutUpRight } from 'react-icons/lu';
 
 import { useState } from 'react';
 
 import car from '../../assets/car4.jpg';
 import car2 from '../../assets/car.jpg';
+import cityApartment from '../../assets/city-apartment.jpg';
+import penthouse from '../../assets/penthouse.jpg';
+import villa from '../../assets/villa2.jpg';
+import exclusiveVilla from '../../assets/exclusive-villa.jpg';
+import exclusivePenthouse from '../../assets/exclusive-penthouse.jpg';
+
+const data = [
+  {
+    id: 1,
+    image: cityApartment,
+    cost: '₹2.85 Cr',
+    location: 'Bandra West, Mumbai',
+    title: 'Premium 3BHK Apartment with City View',
+  },
+  {
+    id: 2,
+    image: villa,
+    cost: '₹12.5 Cr',
+    location: 'Jublee Hills, Hyderabad',
+    title: 'Luxury Villa with Private Pool',
+  },
+  {
+    id: 3,
+    image: penthouse,
+    cost: '₹8.75 Cr',
+    location: 'Whitefield, Bangalore',
+    title: 'Premium Penthouse with Terrace',
+  },
+];
 
 const ProductPage = () => {
   const [selectedBtn, setSelectedBtn] = useState('All');
@@ -224,6 +254,109 @@ const ProductPage = () => {
               </div>
             </div>
           </div>
+          <div className='product-description-container'>
+            <h2 className='product-description'>Exterior & Interior</h2>
+            <h3 className='exterior-heading'>Exterior</h3>
+            <div className='exterior-grid-item-container'>
+              <div className='product-grid-item'>
+                <p className='product-brand'>Color</p>
+                <p className='brand-name'>Silver Cloud</p>
+              </div>
+              <div className='product-grid-item'>
+                <p className='product-brand'>Wheels</p>
+                <p className='brand-name'>Original Chrome Wire Wheels</p>
+              </div>
+              <div className='product-grid-item'>
+                <p className='product-brand'>TyreCondition</p>
+                <p className='brand-name'>Excellent</p>
+              </div>
+              <div className='product-grid-item'>
+                <p className='product-brand'>Headlights</p>
+                <p className='brand-name'>Classic Round Headlamps</p>
+              </div>
+              <div className='product-grid-item'>
+                <p className='product-brand'>Sunroof</p>
+                <p className='brand-name'>No</p>
+              </div>
+            </div>
+            <h3 className='exterior-heading'>Interior</h3>
+            <div className='exterior-grid-item-container'>
+              <div className='product-grid-item'>
+                <p className='product-brand'>Upholstery</p>
+                <p className='brand-name'>Premium Leather (Burgundy)</p>
+              </div>
+              <div className='product-grid-item'>
+                <p className='product-brand'>Seating</p>
+                <p className='brand-name'>5 Seater</p>
+              </div>
+            </div>
+            <div className='exterior-point-grid-container'>
+              <div className='exterior-point-item-container'>
+                <FiCheckCircle className='exterior-circle-icon' /> Wooden
+                Dashboard
+              </div>
+              <div className='exterior-point-item-container'>
+                <FiCheckCircle className='exterior-circle-icon' /> Original
+                Instrumentation
+              </div>
+              <div className='exterior-point-item-container'>
+                <FiCheckCircle className='exterior-circle-icon' /> Picnic Tables
+              </div>
+              <div className='exterior-point-item-container'>
+                <FiCheckCircle className='exterior-circle-icon' /> Wool Carpets
+              </div>
+              <div className='exterior-point-item-container'>
+                <FiCheckCircle className='exterior-circle-icon' /> Classic Radio
+              </div>
+              <div className='exterior-point-item-container'>
+                <FiCheckCircle className='exterior-circle-icon' /> Air
+                Conditioning (Added)
+              </div>
+              <div className='exterior-point-item-container'>
+                <FiCheckCircle className='exterior-circle-icon' /> Power Windows
+              </div>
+              <div className='exterior-point-item-container'>
+                <FiCheckCircle className='exterior-circle-icon' /> Central
+                Locking
+              </div>
+            </div>
+          </div>
+          <div className='product-description-container'>
+            <h2 className='product-description'>Additional Features</h2>
+            <div className='exterior-point-grid-container'>
+              <div className='exterior-point-item-container'>
+                <FiCheckCircle className='exterior-circle-icon' /> Fully
+                Restored
+              </div>
+              <div className='exterior-point-item-container'>
+                <FiCheckCircle className='exterior-circle-icon' /> Original
+                Parts
+              </div>
+              <div className='exterior-point-item-container'>
+                <FiCheckCircle className='exterior-circle-icon' /> Maintained
+                Service History
+              </div>
+              <div className='exterior-point-item-container'>
+                <FiCheckCircle className='exterior-circle-icon' /> Garage Kept
+              </div>
+              <div className='exterior-point-item-container'>
+                <FiCheckCircle className='exterior-circle-icon' /> Collector's
+                Item
+              </div>
+              <div className='exterior-point-item-container'>
+                <FiCheckCircle className='exterior-circle-icon' /> Show Quality
+                Finish
+              </div>
+              <div className='exterior-point-item-container'>
+                <FiCheckCircle className='exterior-circle-icon' /> Rare Vintage
+                Model
+              </div>
+              <div className='exterior-point-item-container'>
+                <FiCheckCircle className='exterior-circle-icon' /> Investment
+                Grade
+              </div>
+            </div>
+          </div>
         </div>
         <div className='product-page-quick-info-container'>
           <div className='product-page-safety-tips-container'>
@@ -268,6 +401,109 @@ const ProductPage = () => {
               <span className='category-name'>25 Jan 2026</span>
             </div>
           </div>
+        </div>
+      </div>
+      <div className='similar-luxury-items-container'>
+        <div className='similar-luxury-items-header'>
+          <h2 className='similar-luxury-items-heading'>Similar Luxury Items</h2>
+          <button className='view-all-btn'>
+            View All <LuSquareArrowOutUpRight />
+          </button>
+        </div>
+        <div className='similar-luxury-items-grid-container'>
+          {data.map((item) => {
+            const { id, image, cost, location, title } = item;
+            return (
+              <div className='similar-luxury-item-container' key={id}>
+                <div className='luxury-item-img-container'>
+                  <img src={image} alt='image' className='luxury-item-img' />
+                  <div className='luxury-item-header'>
+                    <div className='luxury-item-verified-container'>
+                      <BsPatchCheck className='verified-icon' /> Verified
+                    </div>
+                    <div className='luxury-item-luxury-container'>
+                      <LuCrown /> LUXURY
+                    </div>
+                  </div>
+                  <div className='luxury-item-footer'>
+                    <p className='luxury-item-cost'>{cost}</p>
+                    <p className='luxury-item-location'>
+                      <GrLocation /> {location}
+                    </p>
+                  </div>
+                </div>
+                <div className='luxury-item-content-container'>
+                  <h3 className='luxury-item-title'>{title}</h3>
+                  <button className='luxury-item-btn'>View Details</button>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+      <div className='exclusive-collection-container'>
+        <div className='featured-container'>
+          <div className='featured-image-container'>
+            <img
+              src={exclusiveVilla}
+              alt='exclusive villa'
+              className='featured-img'
+            />
+            <div className='featured-tag-container'>FEATURED</div>
+          </div>
+          <div className='featured-content-container'>
+            <h2 className='featured-heading'>Exclusive Luxury Collection</h2>
+            <p className='featured-text'>
+              Discover handpicked premium items from India's most trusted luxury
+              marketplace.
+            </p>
+            <div className='featured-footer-container'>
+              <p className='featured-footer-title'>Starting from ₹50 Lac</p>
+              <button className='featured-footer-btn'>
+                Explore Now <LuSquareArrowOutUpRight />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className='featured-container'>
+          <div className='featured-image-container'>
+            <img
+              src={exclusivePenthouse}
+              alt='exclusive villa'
+              className='featured-img'
+            />
+            <div className='special-tag-container'>SPECIAL OFFER</div>
+          </div>
+          <div className='featured-content-container'>
+            <h2 className='featured-heading'>List Your Item Free</h2>
+            <p className='featured-text'>
+              Join thousands of sellers. Zero listing fees until Jan 2027!
+            </p>
+            <div className='featured-footer-container'>
+              <p className='featured-footer-desc'>No Commission*</p>
+              <button className='featured-footer-btn'>
+                List Now <LuSquareArrowOutUpRight />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='product-page-footer-container'>
+        <h2 className='product-page-footer-heading'>
+          <LuCrown className='product-footer-icon' /> Join Billionaire Auction
+          Premium
+        </h2>
+        <p className='product-footer-text'>
+          Get exclusive access to luxury offline auctions, verified elite items,
+          and personalized concierge services.
+        </p>
+        <div className='product-footer-btn-container'>
+          <button className='featured-footer-btn'>
+            Explore Now <LuSquareArrowOutUpRight />
+          </button>
+          <button className='product-footer-btn'>
+            View Premium Plans <LuSquareArrowOutUpRight />
+          </button>
         </div>
       </div>
     </div>

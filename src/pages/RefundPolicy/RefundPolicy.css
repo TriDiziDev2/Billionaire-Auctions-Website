@@ -267,4 +267,26 @@
   .privacy-policy-heading {
     font-size: 28px;
   }
+
+  .privacy-policy-heading {
+    font-size: 20px;
+  }
+
+  .privacy-policy-text {
+    font-size: 12px;
+  }
+
+  .personal-data-heading {
+    font-size: 18px;
+  }
+
+  .queries-container {
+    padding: 16px;
+    border-radius: 10px;
+  }
+
+  .refund-policy-footer-container {
+    padding: 16px;
+    border-radius: 10px;
+  }
 }
